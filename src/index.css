@@ -1,16 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --rosa-oscuro:#ED6E8D;
+  --rosa-search:#eec0cc;
+  --rosa-claro: #F2A3B8;
+  --gris:#DCDCDC;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body
+{
+  margin:0;
+  padding: 0;
 }
+<<<<<<< Updated upstream
 
 :root {
   --rosa-oscuro: #ed6e8d;
@@ -54,3 +54,8 @@ body {
   font-family: var(--fuente-texto);
   border-bottom: 2px solid var(--color-bordes);
 }
+=======
+*{
+  box-sizing: border-box;
+}
+>>>>>>> Stashed changes
