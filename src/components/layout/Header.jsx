@@ -4,7 +4,7 @@ import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-const Header = () => {
+const Header = () => { 
   return (
     <header>
       <div id="cajaBuscador">
