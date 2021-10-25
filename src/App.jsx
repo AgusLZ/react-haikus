@@ -1,25 +1,19 @@
-import "./App.css";
-<<<<<<< Updated upstream
-import Header from "./components/layout/Header"
-import Main from "./components/layout/Main"
-import Footer from "./components/layout/Footer"
+import "./App.css"
+import Header from "./components/layout/Header";
+import Main from "./components/layout/Main";
+import Footer from "./components/layout/Footer";
+import Home from "./components/layout/Home";
 function App() {
   return <>
   <Header/>
-  <Main/>
+   <Main>
+    <Home/>
+    <Home/>
+    <Home/>
+   </Main>
   <Footer/>
   </>;
-=======
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-function App() {
-  return <>
-    <Header />
-    <Main />
-    <Footer />
-  </>
->>>>>>> Stashed changes
+
 }
 
-export default App;
+export default App
